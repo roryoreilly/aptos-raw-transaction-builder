@@ -1,0 +1,27 @@
+{
+  "name": "aptos-raw-transaction-builder",
+  "version": "1.0.0",
+  "description": "Create Aptos Raw Transactions",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roryoreilly/aptos-raw-transaction-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roryoreilly/aptos-raw-transaction-builder/issues"
+  },
+  "homepage": "https://github.com/roryoreilly/aptos-raw-transaction-builder#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aptos": "^1.20.0"
+  }
+}
