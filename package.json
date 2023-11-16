@@ -2,9 +2,10 @@
   "name": "aptos-raw-transaction-builder",
   "version": "1.0.0",
   "description": "Create Aptos Raw Transactions",
-  "main": "index.ts",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node ./src/index.js",
     "test": "test"
   },
   "repository": {
